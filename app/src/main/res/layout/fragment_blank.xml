@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="100dp"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_end_color"
+    android:orientation="vertical"
+
+    >
+
+    <EditText
+        android:id="@+id/textFrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Esciba aqui una frase"
+        android:padding="16dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Agregar" />
+
+    <Button
+        android:id="@+id/btnLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Ver Frases" />
+
+</LinearLayout>
